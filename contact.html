@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="flex flex-col gap-36">
+        <!-- Responsive Navbar -->
+        <nav class="bg-green-100 p-3 md:p-10 flex items-center justify-between shadow-xl sticky top-0 z-10">
+            <h1 class="text-2xl">Greenden</h1>
+
+            <div class="flex gap-3">
+                <a href="cart.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="size-6 w-6 h-6 md:hidden">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                    </svg>
+                </a>
+
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="size-6 w-6 h-6 md:hidden">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+
+
+            </div>
+
+
+
+            <ul class="flex gap-5 text-gray-600 hidden md:flex">
+                <li class="hover:underline hover:text-black">
+                    <a href="index.html">Home</a>
+                </li>
+                <li class="hover:underline  hover:text-black">
+                    <a href="product.html">Products</a>
+                </li>
+                <li class="hover:underline hover:text-black">
+                    <a href="contact.html">Contact</a>
+                </li>
+                <li class="hover:underline hover:text-black">
+                    <a href="cart.html"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="size-6 w-6 h-6 sd:hidden">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Contact section -->
+        <section class="class=font-bold flex flex-col justify-center align-middle container mx-auto">
+            <div>
+                <h1 class="font-bold text-3xl text-center mb-4">Contact Us</h1>
+                <p class="text-center container mx-auto w-4/5 mb-4">Got a technical issue? Want to send feedback about a
+                    beta feature? Need details about our Business plan? Let us know.</p>
+            </div>
+            <div class="container mx-auto flex flex-col w-4/5 font-bold">
+                <ul class="mb-4">
+                    <li class="mb-1 pl-1">Your email</li>
+                    <input class="border border-black w-11/12 rounded" type="email" placeholder="name@email.com">
+                </ul>
+                <ul class="mb-4">
+                    <li class="mb-1 pl-1">Subject</li>
+                    <input class="border border-black w-11/12 rounded" type="text" placeholder="name@email.com">
+                </ul>
+                <ul class="mb-4">
+                    <li class="mb-1 pl-1">Your message</li>
+                    <textarea class="border border-black w-11/12 rounded" type="messagebox"
+                        placeholder="name@email.com"></textarea>
+                </ul>
+
+            </div>
+        </section>
+
+        <!-- Footer section -->
+        <section class="bg-green-100 p-10 flex flex-col gap-5 flex-1">
+            <h1 class="font-bold text-4xl">Greenden</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis pariatur voluptas earum doloremque aut
+                illo
+                sint excepturi sequi facilis neque.</p>
+            <p>@ 2024 Greenden.com</p>
+        </section>
+    </div>
+
+</body>
+
+</html>
